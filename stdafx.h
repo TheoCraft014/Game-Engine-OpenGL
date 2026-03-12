@@ -6,11 +6,10 @@
 #pragma once
 
 #include "targetver.h"
-#include "esUtil.h"
 
-#ifndef WIN32_LEAN_AND_MEAN
-#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
-#endif
+#include <cstdio>
+#include <tchar.h>
+
 
 
 // TODO: reference additional headers your program requires here
